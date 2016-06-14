@@ -9971,7 +9971,7 @@ html body .page-footer h1 {
 }
 
 .font-accent {
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -10009,7 +10009,7 @@ h2,
   h2,
   .h2 {
     line-height: 1.46667;
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -10295,7 +10295,7 @@ dl {
 .list-index li .list-index-heading h4:before {
   content: counter(li, decimal) ". ";
   counter-increment: li;
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "brandon-grotesque", "Times New Roman", Times, serif;
 }
 
 @media (min-width: 992px) {
@@ -10792,7 +10792,7 @@ html body .page a.text-regent:focus {
 
 .btn {
   transition: .3s ease-out;
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 13px;
   padding: 16px 26px;
   border-radius: 50px;
@@ -22294,7 +22294,7 @@ html body .post-blog-comment-reply:before {
 }
 
 html body .post-blog-comment-author {
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 15px;
   color: #2c2c2c;
 }
@@ -23359,7 +23359,7 @@ html .element-groups-30 > *, html .element-groups-30 > *:first-child {
   transition: .2s;
   font-size: 15px;
   line-height: 27px;
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "brandon-grotesque", sans-serif !important;
   padding: 8px 17px 14px;
 }
 
@@ -27464,8 +27464,9 @@ html:not(.lt-ie10) .not-animated {
   padding: 0 0 12px;
   color: #444444;
   line-height: 1.2;
-  font-size: 15px;
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: "brandon-grotesque", sans-serif;/*important-tag*/
 }
 
 .rd-navbar-static .rd-navbar-nav > li:not(.rd-navbar-cta) > a:after,
@@ -27574,7 +27575,7 @@ html:not(.lt-ie10) .not-animated {
   text-align: left;
   margin-top: 10px;
   left: 0;
-  width: 170px;
+  width: 220px;
   background: #222222;
   z-index: 5;
 }
@@ -30671,7 +30672,7 @@ ul ul, ul ol, ol ul, ol ol {
 
 .resp-tabs-list li {
   cursor: pointer;
-  font-family: Merriweather;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 15px;
   color: #000;
   transition: .22s ease-in;
